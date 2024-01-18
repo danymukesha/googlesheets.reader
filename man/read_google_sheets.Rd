@@ -21,7 +21,7 @@ It uses the googlesheets4 package to fetch and parse the data from each sheet.
 }
 \examples{
 \dontrun{
-  google_sheets_url <- "https://docs.google.com/spreadsheets/d/1YsOKpxKOKlUEx6gAg0qO7JxJ52KWOZulmhwZYcGMYHY"
+  google_sheets_url <- "https://docs.google.com/spreadsheets/d/1U6Cf_qEOhiR9AZqTqS3mbMF3zt2db48ZP5v3rkrAEJY/edit#gid=780868077"
   read_google_sheets(google_sheets_url)
 }
 
