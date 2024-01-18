@@ -1,0 +1,47 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# googlesheets.reader
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+A lightweight R package, `googlesheetsReader`, intended to make reading data from Google Sheets easier. It uses the googlesheets4 package to effortlessly retrieve and analyze data from any sheet in a Google Sheets document, providing a clean and convenient interfacefor R users. Streamline your workflow with this easy-to-use package for seamless integration with Google Sheets data in your R projects.
+
+## Installation
+
+You can install the development version of googlesheets.reader from [GitHub](https://github.com/) with:
+
+```{r}
+# install.packages("devtools")
+devtools::install_github("danymukesha/googlesheets.reader")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(googlesheets.reader)
+google_sheets_url <- "https://docs.google.com/spreadsheets/d/1U6Cf_qEOhiR9AZqTqS3mbMF3zt2db48ZP5v3rkrAEJY/edit#gid=780868077"
+result <- read_google_sheets(google_sheets_url)
+```
+
+Replace "google_sheets_url" with the actual URL for your google sheet.
+
+```{r}
+head(result)
+```
+

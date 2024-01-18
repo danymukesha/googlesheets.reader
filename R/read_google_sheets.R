@@ -12,6 +12,7 @@
 #' @import googlesheets4
 #' @import dplyr
 #' @import purrr
+#' @import tidyr
 #' @import tibble
 #'
 #' @examples
