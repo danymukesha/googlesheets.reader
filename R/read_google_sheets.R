@@ -30,6 +30,7 @@ read_google_sheets <- function(google_sheets_url, unnest_data = TRUE) {
   library(googlesheets4)
   library(dplyr)
   library(purrr)
+  library(tidyr)
   library(tibble)
 
   # Deauthorize to avoid token-related issues
