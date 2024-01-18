@@ -1,0 +1,16 @@
+Package: googlesheets.reader
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.0.1
+Author: Dany Mukesha
+Maintainer: The package maintainer <danymukesha@gmail.om>
+Description:A lightweight R package, googlesheetsReader, 
+intended to make reading data from Google Sheets easier. 
+It uses the googlesheets4 package to effortlessly retrieve and analyze data 
+from any sheet in a Google Sheets document, providing a clean and convenient interfacefor R users. 
+Streamline your workflow with this easy-to-use package for seamless integration 
+with Google Sheets data in your R projects.
+License: None
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
